@@ -6,7 +6,7 @@ app.listen(process.env.PORT || 3000, () => {
     console.log("Server started");
 });
 */
-const express = require("express");
+//const express = require("express");
 const app = require("./src/app"); // or wherever your app.js is
 const router = require("./src/routes/routes"); // adjust path as needed
 
